@@ -23,5 +23,5 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
 	} catch {
 		return await message.client.sendMessage(message.jid, "err..error", MessageType.text);
 	}
-});
+}));
 
